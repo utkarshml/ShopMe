@@ -1,0 +1,11 @@
+
+label{
+    color: rgb(118, 1, 211);
+}
+#product{
+    margin: 2rem 1rem;
+    color: rgb(118, 1, 211);
+    &:focus{
+        background-color: rgb(118, 1, 211);
+    }
+}

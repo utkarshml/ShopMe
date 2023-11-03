@@ -1,0 +1,22 @@
+#sidebar{
+    height: 100vh;
+    position: absolute;
+    width: 15%;
+    z-index: 9999;
+    background-color:white;
+    padding: 10px 10px;
+    min-width: 300px;
+    left: -100%;
+    transition: all 1s ease;
+    box-shadow: inset 3px 1px 28px 12px rgba(0,0,0,0.26);
+
+}
+
+// Putting Side Panel toggle button style mean meadia query 
+@media screen and (max-width: 768px) {
+    #toggle {
+        display: flex!important;
+    }
+}
+
+

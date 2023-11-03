@@ -1,0 +1,44 @@
+.card{
+     margin: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 4px 4px 47px 0px rgba(0,0,0,0.35);
+    border-radius: 2rem;
+    position: relative;
+    width: 18rem;
+    min-width: 18rem;
+    height: 24rem;
+    transition: all 0.4s ease;
+    &:hover{
+        transform: scale(1.111);
+    }
+    .image{
+        position: absolute;
+        top: 0.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 2rem;
+    }
+    .image img{
+        height: 150px;
+        width: 100px;
+        border-radius: 2rem 2rem 0 0;
+    }
+    .content{
+        padding: 1rem;
+        position: absolute;
+        bottom: 0%;
+        transform: translateY(-13%);
+        .title {
+            color:rgb(118, 1, 211);
+            margin-bottom: 8px!important;
+            font-size: large;
+        }
+        p {
+            color: rgba(0, 0, 0, 0.896);
+            font-size: small;
+        }
+    }
+}
